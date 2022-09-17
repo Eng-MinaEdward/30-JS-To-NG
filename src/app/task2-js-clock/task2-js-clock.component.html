@@ -1,0 +1,17 @@
+<div class="wrap">
+  <div class="clock">
+    <div class="clock-face">
+      <div class="hand hour-hand"
+           [ngStyle]="{'transform': setTime('second')}"
+      ></div>
+      <div class="hand min-hand"
+           [ngStyle]="{'transform': setTime('mins')}"
+      ></div>
+      <div class="hand second-hand"
+           [ngStyle]="{'transform': setTime('hours')}"
+
+      ></div>
+    </div>
+  </div>
+</div>
+
